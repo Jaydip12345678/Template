@@ -1,0 +1,242 @@
+/*====================================== header ===========================================*/
+:root {
+    --primarycolor: #A82C48;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hedbtn {
+    padding: 0px 20px;
+    background-color: var(--primarycolor);
+    color: white;
+    font-weight: bold;
+    border: 2px solid #A82C48;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.hedbtn:hover {
+    border: 2px solid #A82C48;
+    background-color: white;
+    color: #A82C48;
+}
+
+.item1 {
+    color: #A82C48;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0px 13px;
+}
+
+.item1:hover {
+    color: #A82C48;
+}
+
+#btn1:focus {
+    box-shadow: none;
+}
+
+/*====================================== section-1 ===========================================*/
+#sss{
+    background-image: url(images/bg-1.jpg);
+    width: 100%;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.s1text{
+    padding: 200px 0px;
+    /* padding-left: 0; */
+    /* width: 100%; */
+}
+.s1{
+    width: 50%;
+}
+
+.s1btn1 {
+    border: 3px solid #A82C48;
+    background-color: var(--primarycolor);
+    color: white;
+    padding: 8px 15px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.s1btn1:hover {
+    border: 3px solid #A82C48;
+    background-color: white;
+    color: #A82C48;
+}
+
+.s1btn2 {
+    border: 3px solid white;
+    padding: 8px 15px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.s1btn2:hover {
+    border: 3px solid #A82C48;
+    color: var(--primarycolor);
+}
+
+/*============== section-4 ===========================================*/
+.rightclick{
+    color:var(--primarycolor);
+    font-size:20px;
+    font-weight: bold;
+}
+
+/*============== section-5 ===========================================*/
+@media only screen and (max-width: 1500px) {
+    .s5{
+      width: 75%;
+    }
+  }
+@media only screen and (max-width: 1024px) {
+    .s5{
+      width: 75%;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .s5{
+      width: 100%;
+    }
+  }
+/*============== section-6 ===========================================*/
+.span1{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--primarycolor);
+}
+.span2{
+    font-size: 30px;
+    font-weight: bold;
+    color: slategrey;
+}
+
+@media only screen and (max-width: 768px) {
+    .s6{
+      width: 100%;
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    .s6{
+      width: 75%;
+    }
+  }
+
+/*============== section-7 ===========================================*/
+/* #hover::after {
+    position: absolute;
+    content: "";
+    display: block;
+    left: 0;
+    bottom: -10px;
+    height: 5px;
+    border-radius: 5px;
+    width: 10%;
+    margin-left: 45%;
+    background-color: #3fbbc0;
+}
+
+.hoverbtn:hover {
+    color: #3fbbc0;
+} */
+
+/* .accordion-button::after {
+    position: absolute;
+    left: -1px;
+}
+
+.accordion-button:focus {
+    border: none;
+    box-shadow: none;
+    background-color: white;
+} */
+.bg{
+    height: 300px;
+    margin: 50px 0px;
+    border-radius: 10px;
+    background-color: white;
+}
+.img1{
+    height:100px;
+    margin: 0 auto;
+    width: 100px !important;
+    border-radius: 50%;
+}
+.s7btnbottom{
+  height: 15px !important;
+  width: 15px !important;
+  background-color: white !important;
+  border: 1px solid black !important;
+  border-radius: 50%;
+}
+
+/*============== section-8 ===========================================*/
+.tild{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--primarycolor);
+}
+.s8fontbolt{
+    font-weight: bold;
+}
+
+/*============== section-9 ===========================================*/
+.inputemail{
+    font-weight: bold;
+    height: 50px;
+    width: 50%;
+    padding-left: 20px;
+    border: 3px solid gray;
+}
+.inputemail:hover{
+    border: 3px solid #A82C48;
+}
+.inputemail:active{
+    border: 5px solid #A82C48;
+}
+
+
+.inputemailsm{
+    font-weight: bold;
+    height: 50px;
+    width: 80%;
+    border: 3px solid gray;
+    margin-bottom:20px ;
+}
+.smbtn{
+    border: 3px solid #A82C48;
+    background-color: var(--primarycolor);
+    color: white;
+    width: 80%;
+    padding: 8px 15px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+.smbtn:hover{
+    border: 3px solid #A82C48;
+    background-color: white;
+    color: #A82C48;
+}
+
+/*============== footer ===========================================*/
+.footerlink{
+    margin: 0px 12px;
+    color: white;
+    cursor: pointer;
+}
+.footericon{
+    font-size: 25px;
+    color: white;
+    margin: 0px 10px;
+    cursor: pointer;
+}
